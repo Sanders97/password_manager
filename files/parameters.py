@@ -1,5 +1,8 @@
 
->>> random = ''.join([random.choice(string.ascii_letters + string.digits) for n in xrange(16)])
->>> print random
-'9fAgMmc9hl6VXIsFu3ddb5MJ2U86qEad'
->>> print len(random)
+import string
+from random import *
+min_char = 8
+max_char = 12
+allchar = string.ascii_letters + string.punctuation + string.digits
+password = "".join(choice(allchar) for x in range(randint(min_char, max_char)))
+print "This is your password : ",password
