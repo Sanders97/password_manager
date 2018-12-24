@@ -1,5 +1,9 @@
 body {
   background-color: navy;
   font-style: sans serif
-  /*padding: 25em;
-}*/
+  padding: 25em;
+}
+h3{
+	color: white;
+	padding: 20em;
+}
