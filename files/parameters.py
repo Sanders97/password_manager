@@ -11,5 +11,7 @@ print "This is your password : ",password
 def __new__(dbUpload)
 if password == dbPassword:
 	print "already uploaded"
-else:
-	pass
+else: print "new password added"
+upload password tp db 
+	
+
