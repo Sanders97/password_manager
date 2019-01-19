@@ -14,4 +14,7 @@ print "This is your password : ",password
 	else: print "new password added"
 	upload password tp db 
 	
-
+	def __new__(dbRequest):
+		if Request == (dbUpload):
+			return: password
+		else: print "password not found"
