@@ -11,12 +11,14 @@ print "This is your password : ",password
 	def __new__(dbUpload):
 	if password == dbPassword:
 		print "already uploaded"
-	else: print "new password added"
-	upload password tp db 
+	else: 
+		print "new password added"
+	# upload password tp db 
 	
 	def __new__(dbRequest):
-		if Request == (dbUpload):
+	if Request == (dbUpload):
 			return: password
-		else: print "password not found"
+	else:
+		 print "password not found"
 
-	
+
