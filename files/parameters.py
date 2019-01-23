@@ -13,7 +13,7 @@ print "This is your password : ",password
 		print "already uploaded"
 	else: 
 		print "new password added"
-	# upload password tp db 
+	# upload password to db 
 	
 	def __new__(dbRequest):
 	if Request == (dbUpload):
