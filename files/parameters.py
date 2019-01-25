@@ -21,4 +21,7 @@ print "This is your password : ",password
 	else:
 		 print "password not found"
 
+	# def __new__(dbSuggest):
+	# 	if button(create new code) == selected
+	# 		return: randomString
 
