@@ -10,3 +10,4 @@ if (buttonA) {
 	selection = true
 }open saved password list password 
 
+ // <button onclick="myFunction()">Click me</button> 
