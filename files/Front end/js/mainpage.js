@@ -1,3 +1,4 @@
+// waves-effect waves-light btn = buttonAS
 if (buttonA) {
 	selection = true
 }create password 
